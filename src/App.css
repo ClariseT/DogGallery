@@ -1,0 +1,36 @@
+.tamanio-img {
+    width: 180px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.papu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 0, 2px, 2px rgb(0, 0, 0, 0.2);
+    transition: all 0.25s;
+}
+
+.links:hover{
+    box-shadow: 0, 2px, 2px rgb(0, 0, 0, 0.2);
+    transform: translateY(-15px);
+}
+
+.img {
+    width: 100%;
+    height: 600%;
+}
+
+body {
+    background: #81ce1d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d3a81a, #c6e92c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d3a81a, #af7c4d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
